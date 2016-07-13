@@ -1,4 +1,4 @@
 cite about-plugin
-about-plugin 'load chruby                  (from /usr/local/share/chruby)'
+about-plugin 'load chruby                  (from /data/data/com.termux/files/usr/local/share/chruby)'
 
-source /usr/local/share/chruby/chruby.sh
+source /data/data/com.termux/files/usr/local/share/chruby/chruby.sh

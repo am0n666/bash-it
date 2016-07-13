@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!//data/data/com.termux/files/usr/bin/env bash
 if [ -z "$BASH_IT" ];
 then
   BASH_IT="$HOME/.bash_it"

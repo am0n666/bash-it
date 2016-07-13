@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/data/data/com.termux/files/usr/bin/env bash
 
 # Packer (http://www.packer.io) bash completion
 #
@@ -84,7 +84,7 @@ __packer_build ()
             return
             ;;
         -*)
-            __packercomp "-debug -force -machine-readable -except= -only= -parallel= -var -var-file"
+            __ackercomp "-debug -force -machine-readable -except= -only= -parallel= -var -var-file"
             return
             ;;
         *)

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/data/data/com.termux/files/usr/bin/env bash
 # Initialize Bash It
 
 # Reload Library
@@ -82,7 +82,7 @@ fi
 
 # Adding Support for other OSes
 PREVIEW="less"
-[ -s /usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview"
+[ -s /data/data/com.termux/files/usr/bin/gloobus-preview ] && PREVIEW="gloobus-preview"
 [ -s /Applications/Preview.app ] && PREVIEW="/Applications/Preview.app"
 
 # Load all the Jekyll stuff

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!//data/data/com.termux/files/usr/bin/env bash
 
 SHELL_SSH_CHAR="⌁ "
 SHELL_THEME_PROMPT_COLOR=32

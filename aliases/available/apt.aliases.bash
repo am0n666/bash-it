@@ -18,7 +18,7 @@ function _set_pkg_aliases()
 		alias aptrm='sudo apt-get remove'
 		alias aptpurge='sudo apt-get remove --purge'
 
-		alias chkup='/usr/lib/update-notifier/apt-check -p --human-readable'
+		alias chkup='/data/data/com.termux/files/usr/lib/update-notifier/apt-check -p --human-readable'
 		alias chkboot='cat /var/run/reboot-required'
 
 		alias pkgfiles='dpkg --listfiles'

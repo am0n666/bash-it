@@ -24,7 +24,7 @@
 #     a. Place it in a `bash-completion.d` folder:
 # 
 #        * /etc/bash-completion.d
-#        * /usr/local/etc/bash-completion.d
+#        * /data/data/com.termux/files/usr/local/etc/bash-completion.d
 #        * ~/bash-completion.d
 # 
 #     b. Or, copy it somewhere (e.g. ~/.git-flow-completion.sh) and put the following line in

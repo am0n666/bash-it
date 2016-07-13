@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!//data/data/com.termux/files/usr/bin/env bash
 
 # Path to the bash it configuration
 export BASH_IT="{{BASH_IT}}"

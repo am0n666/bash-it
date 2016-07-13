@@ -31,9 +31,9 @@ function wmate() {
 
     if [ -t 0 ]; then
         if [ -n "$1" ]; then
-            wget -qO- $1 | /usr/bin/mate
+            wget -qO- $1 | /data/data/com.termux/files/usr/bin/mate
 
-TIDY=`/usr/bin/osascript << EOT
+TIDY=`/data/data/com.termux/files/usr/bin/osascript << EOT
 tell application "TextMate"
 	activate
 end tell

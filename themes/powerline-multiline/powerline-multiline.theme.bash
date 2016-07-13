@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!//data/data/com.termux/files/usr/bin/env bash
 
 USER_INFO_SSH_CHAR=${POWERLINE_USER_INFO_SSH_CHAR:=" "}
 USER_INFO_THEME_PROMPT_COLOR=32

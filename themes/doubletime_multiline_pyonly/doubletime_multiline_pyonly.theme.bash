@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!//data/data/com.termux/files/usr/bin/env bash
 
 source "$BASH_IT/themes/doubletime/doubletime.theme.bash"
 
