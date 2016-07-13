@@ -86,7 +86,7 @@ function mkcd ()
     about 'make a directory and cd into it'
     param 'path to create'
     example '$ mkcd foo'
-    example '$ mkcd /tmp/img/photos/large'
+    example '$ mkcd /data/data/com.termux/files/usr/tmp/img/photos/large'
     group 'base'
     mkdir -p -- "$*"
     cd -- "$*"
@@ -202,5 +202,5 @@ function del() {
     param 'file or folder to be deleted'
     example 'del ./file.txt'
     group 'base'
-    mkdir -p /tmp/.trash && mv "$@" /tmp/.trash; 
+    mkdir -p /data/data/com.termux/files/usr/tmp/.trash && mv "$@" /data/data/com.termux/files/usr/tmp/.trash; 
 }

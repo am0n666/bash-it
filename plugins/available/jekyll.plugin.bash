@@ -33,7 +33,7 @@ editpost() {
 
   COUNTER=1
   NUMBER="$RANDOM"
-  TMPFILE="/tmp/editpost-$NUMBER"
+  TMPFILE="/data/data/com.termux/files/usr/tmp/editpost-$NUMBER"
 
   for POST in *
   do

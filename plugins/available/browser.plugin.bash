@@ -17,7 +17,7 @@ function browser() {
         fi
 
     else
-        f="/tmp/browser.$RANDOM.html"
+        f="/data/data/com.termux/files/usr/tmp/browser.$RANDOM.html"
         cat /dev/stdin > $f
         open $f
     fi
